@@ -1,0 +1,1542 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5802a35d4ffecd0eec4beb3be9255326",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "7a196bdae2fe6a804c4ad66bb732c3fc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e0340b87a443dd74a7e8931bcf35e53e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e3ec43a9491a74fb8a01dd9a77e7d74f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a5976e7352eddb9282e6847f370c4d0f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "11bd5f44aac6ff781c99713b9f6b91b7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "87a1990bb4c6c1a1a67071e0526af632",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a9cac4a4c5f4f69d439587aaf0743d5f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "18ff6a7d-38de-5bd8-a3ce-c2bb1052f2e5": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby-source-filesystem",
+      "id": "18ff6a7d-38de-5bd8-a3ce-c2bb1052f2e5",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "56d2ea3db8d875ec0055b84a8ec23e67",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.13",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "d9328d4f1c1b87eec41ba9e4b449efe0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e9251f86bf9f7cfb6b302172cdd22ce7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "99d6ddc64a764a417a90f1c4d0498eb3",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "A simple starter to get up and developing quickly with Gatsby",
+        "version": "0.1.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.119"
+          },
+          {
+            "name": "gatsby-background-image",
+            "version": "^0.2.3"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.17"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.23"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.13"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.7.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.8.1"
+          },
+          {
+            "name": "react-animate-on-scroll",
+            "version": "^2.1.5"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.8.1"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "c48cc61ef7d2fb3bf091e7b29e4ce898",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "0eead890-e647-532b-b6a1-1aa68431f3d4": {
+      "resolve": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby-plugin-page-creator",
+      "id": "0eead890-e647-532b-b6a1-1aa68431f3d4",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "61c004e975c55dc0bb1d870ba292a6ec",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Vivero la Cima",
+        "description": "Variedad de plantas y productos de jardinería de la mejor calidad al mejor precio. Guadalajara",
+        "author": "Paulo Zamora"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "buildTime": "2019-02-15T04:50:18.738Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "66adef9ee14389ad90ab605e00d28df5",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c161bac2-3115-5bb9-a4c4-14aa57269adc": {
+      "id": "c161bac2-3115-5bb9-a4c4-14aa57269adc",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "69a5eb050b572ac79b521747fcb2484d",
+        "type": "Directory",
+        "description": "Directory \"src/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-15T03:39:39.841Z",
+      "accessTime": "2019-02-13T21:36:13.863Z",
+      "changeTime": "2019-02-15T03:39:39.841Z",
+      "birthTime": "2019-02-15T03:39:39.841Z",
+      "root": "/",
+      "dir": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 2053,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15598730,
+      "blocks": 8,
+      "atimeMs": 1550093773863.1995,
+      "mtimeMs": 1550201979840.674,
+      "ctimeMs": 1550201979840.674,
+      "birthtimeMs": 1550201979840.674,
+      "atime": "2019-02-13T21:36:13.863Z",
+      "mtime": "2019-02-15T03:39:39.841Z",
+      "ctime": "2019-02-15T03:39:39.841Z",
+      "birthtime": "2019-02-15T03:39:39.841Z"
+    },
+    "6e594664-043e-58e3-a802-003e17a92402": {
+      "id": "6e594664-043e-58e3-a802-003e17a92402",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "3cf821102faacac23e4dd0ff3656b540",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/facebook-brands.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images/facebook-brands.svg",
+      "relativePath": "facebook-brands.svg",
+      "extension": "svg",
+      "size": 517,
+      "prettySize": "517 B",
+      "modifiedTime": "2019-02-14T18:31:21.180Z",
+      "accessTime": "2019-02-14T18:31:20.973Z",
+      "changeTime": "2019-02-14T18:31:21.193Z",
+      "birthTime": "2019-02-14T18:31:21.193Z",
+      "root": "/",
+      "dir": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images",
+      "base": "facebook-brands.svg",
+      "ext": ".svg",
+      "name": "facebook-brands",
+      "relativeDirectory": "",
+      "dev": 2053,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15599120,
+      "blocks": 8,
+      "atimeMs": 1550169080973.2312,
+      "mtimeMs": 1550169081179.8965,
+      "ctimeMs": 1550169081193.2297,
+      "birthtimeMs": 1550169081193.2297,
+      "atime": "2019-02-14T18:31:20.973Z",
+      "mtime": "2019-02-14T18:31:21.180Z",
+      "ctime": "2019-02-14T18:31:21.193Z",
+      "birthtime": "2019-02-14T18:31:21.193Z"
+    },
+    "9fbf9d97-a001-5db6-9025-1928bffa25e8": {
+      "id": "9fbf9d97-a001-5db6-9025-1928bffa25e8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e75317fafc5e835195adf92be513d35b",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/instagram-brands.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images/instagram-brands.svg",
+      "relativePath": "instagram-brands.svg",
+      "extension": "svg",
+      "size": 1160,
+      "prettySize": "1.16 kB",
+      "modifiedTime": "2019-02-14T18:30:57.893Z",
+      "accessTime": "2019-02-14T18:30:57.470Z",
+      "changeTime": "2019-02-14T18:30:57.910Z",
+      "birthTime": "2019-02-14T18:30:57.910Z",
+      "root": "/",
+      "dir": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images",
+      "base": "instagram-brands.svg",
+      "ext": ".svg",
+      "name": "instagram-brands",
+      "relativeDirectory": "",
+      "dev": 2053,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15599119,
+      "blocks": 8,
+      "atimeMs": 1550169057470.0635,
+      "mtimeMs": 1550169057893.3938,
+      "ctimeMs": 1550169057910.0603,
+      "birthtimeMs": 1550169057910.0603,
+      "atime": "2019-02-14T18:30:57.470Z",
+      "mtime": "2019-02-14T18:30:57.893Z",
+      "ctime": "2019-02-14T18:30:57.910Z",
+      "birthtime": "2019-02-14T18:30:57.910Z"
+    },
+    "086eef41-a91a-52b9-aa30-f2ab34dc76ce": {
+      "id": "086eef41-a91a-52b9-aa30-f2ab34dc76ce",
+      "children": [
+        "ffb6a9b8-5f5b-51ea-9c95-f949f3373e55"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2ce4a1c20eb10765d5a17a63f56cfbdb",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/maceta-madera.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images/maceta-madera.jpg",
+      "relativePath": "maceta-madera.jpg",
+      "extension": "jpg",
+      "size": 66254,
+      "prettySize": "66.3 kB",
+      "modifiedTime": "2019-02-13T21:35:33.000Z",
+      "accessTime": "2019-02-13T21:35:33.000Z",
+      "changeTime": "2019-02-15T03:39:39.841Z",
+      "birthTime": "2019-02-15T03:39:39.841Z",
+      "root": "/",
+      "dir": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images",
+      "base": "maceta-madera.jpg",
+      "ext": ".jpg",
+      "name": "maceta-madera",
+      "relativeDirectory": "",
+      "dev": 2053,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15599123,
+      "blocks": 136,
+      "atimeMs": 1550093733000,
+      "mtimeMs": 1550093733000,
+      "ctimeMs": 1550201979840.674,
+      "birthtimeMs": 1550201979840.674,
+      "atime": "2019-02-13T21:35:33.000Z",
+      "mtime": "2019-02-13T21:35:33.000Z",
+      "ctime": "2019-02-15T03:39:39.841Z",
+      "birthtime": "2019-02-15T03:39:39.841Z"
+    },
+    "ffb6a9b8-5f5b-51ea-9c95-f949f3373e55": {
+      "id": "ffb6a9b8-5f5b-51ea-9c95-f949f3373e55",
+      "children": [],
+      "parent": "086eef41-a91a-52b9-aa30-f2ab34dc76ce",
+      "internal": {
+        "contentDigest": "2ce4a1c20eb10765d5a17a63f56cfbdb",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "b8efb7f7-75a5-516c-8876-599e64449007": {
+      "id": "b8efb7f7-75a5-516c-8876-599e64449007",
+      "children": [
+        "eaa50f54-d53e-5b8e-bf68-c6ba4d24080f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "38d5a682f57293b8c272c4ef8fd639dc",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/hero.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images/hero.jpg",
+      "relativePath": "hero.jpg",
+      "extension": "jpg",
+      "size": 787145,
+      "prettySize": "787 kB",
+      "modifiedTime": "2019-02-13T21:35:33.000Z",
+      "accessTime": "2019-02-13T21:35:33.000Z",
+      "changeTime": "2019-02-14T17:34:55.922Z",
+      "birthTime": "2019-02-14T17:34:55.922Z",
+      "root": "/",
+      "dir": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images",
+      "base": "hero.jpg",
+      "ext": ".jpg",
+      "name": "hero",
+      "relativeDirectory": "",
+      "dev": 2053,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15599117,
+      "blocks": 1544,
+      "atimeMs": 1550093733000,
+      "mtimeMs": 1550093733000,
+      "ctimeMs": 1550165695922.484,
+      "birthtimeMs": 1550165695922.484,
+      "atime": "2019-02-13T21:35:33.000Z",
+      "mtime": "2019-02-13T21:35:33.000Z",
+      "ctime": "2019-02-14T17:34:55.922Z",
+      "birthtime": "2019-02-14T17:34:55.922Z"
+    },
+    "eaa50f54-d53e-5b8e-bf68-c6ba4d24080f": {
+      "id": "eaa50f54-d53e-5b8e-bf68-c6ba4d24080f",
+      "children": [],
+      "parent": "b8efb7f7-75a5-516c-8876-599e64449007",
+      "internal": {
+        "contentDigest": "38d5a682f57293b8c272c4ef8fd639dc",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "08ecce3c-596f-5816-a011-ba716d392d83": {
+      "id": "08ecce3c-596f-5816-a011-ba716d392d83",
+      "children": [
+        "af168b7a-0eba-5e10-a9b8-4f4ef61d9d12"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4540954d73533a46d63ede0eaa5b9938",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/paisajismo.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images/paisajismo.jpg",
+      "relativePath": "paisajismo.jpg",
+      "extension": "jpg",
+      "size": 883683,
+      "prettySize": "884 kB",
+      "modifiedTime": "2019-02-13T21:35:33.000Z",
+      "accessTime": "2019-02-13T21:35:33.000Z",
+      "changeTime": "2019-02-15T02:23:46.219Z",
+      "birthTime": "2019-02-15T02:23:46.219Z",
+      "root": "/",
+      "dir": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images",
+      "base": "paisajismo.jpg",
+      "ext": ".jpg",
+      "name": "paisajismo",
+      "relativeDirectory": "",
+      "dev": 2053,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15599121,
+      "blocks": 1728,
+      "atimeMs": 1550093733000,
+      "mtimeMs": 1550093733000,
+      "ctimeMs": 1550197426219.0117,
+      "birthtimeMs": 1550197426219.0117,
+      "atime": "2019-02-13T21:35:33.000Z",
+      "mtime": "2019-02-13T21:35:33.000Z",
+      "ctime": "2019-02-15T02:23:46.219Z",
+      "birthtime": "2019-02-15T02:23:46.219Z"
+    },
+    "af168b7a-0eba-5e10-a9b8-4f4ef61d9d12": {
+      "id": "af168b7a-0eba-5e10-a9b8-4f4ef61d9d12",
+      "children": [],
+      "parent": "08ecce3c-596f-5816-a011-ba716d392d83",
+      "internal": {
+        "contentDigest": "4540954d73533a46d63ede0eaa5b9938",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "0eead890-e647-532b-b6a1-1aa68431f3d4",
+      "pluginCreatorId": "0eead890-e647-532b-b6a1-1aa68431f3d4",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2e12b55114e3c1d4de1e00fe0efe9a5f",
+        "description": "0eead890-e647-532b-b6a1-1aa68431f3d4",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "0eead890-e647-532b-b6a1-1aa68431f3d4",
+      "pluginCreatorId": "0eead890-e647-532b-b6a1-1aa68431f3d4",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d4bcd0cf7ef7b774f9183c4fe616ee8d",
+        "description": "0eead890-e647-532b-b6a1-1aa68431f3d4",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "73b32159e82808cea54dc1d47fa721c5",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "91d29acc-b688-5548-913e-500149f8a42a": {
+      "id": "91d29acc-b688-5548-913e-500149f8a42a",
+      "children": [
+        "5eb843ac-9fc2-5e51-9853-6bba28d416de"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b040ec54f7e83a5244510530396d4c2e",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/carro.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images/carro.jpg",
+      "relativePath": "carro.jpg",
+      "extension": "jpg",
+      "size": 198357,
+      "prettySize": "198 kB",
+      "modifiedTime": "2019-02-15T04:57:29.863Z",
+      "accessTime": "2019-02-15T04:57:29.770Z",
+      "changeTime": "2019-02-15T04:58:21.246Z",
+      "birthTime": "2019-02-15T04:58:21.246Z",
+      "root": "/",
+      "dir": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images",
+      "base": "carro.jpg",
+      "ext": ".jpg",
+      "name": "carro",
+      "relativeDirectory": "",
+      "dev": 2053,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15599126,
+      "blocks": 392,
+      "atimeMs": 1550206649769.5112,
+      "mtimeMs": 1550206649862.8438,
+      "ctimeMs": 1550206701245.6653,
+      "birthtimeMs": 1550206701245.6653,
+      "atime": "2019-02-15T04:57:29.770Z",
+      "mtime": "2019-02-15T04:57:29.863Z",
+      "ctime": "2019-02-15T04:58:21.246Z",
+      "birthtime": "2019-02-15T04:58:21.246Z"
+    },
+    "5eb843ac-9fc2-5e51-9853-6bba28d416de": {
+      "id": "5eb843ac-9fc2-5e51-9853-6bba28d416de",
+      "children": [],
+      "parent": "91d29acc-b688-5548-913e-500149f8a42a",
+      "internal": {
+        "contentDigest": "b040ec54f7e83a5244510530396d4c2e",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "782cc60e-d06b-5b57-aecf-5d0919cd3140": {
+      "id": "782cc60e-d06b-5b57-aecf-5d0919cd3140",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2b7c48a767e22546941d70afc9f27ff0",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/map-marker-alt-solid.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images/map-marker-alt-solid.svg",
+      "relativePath": "map-marker-alt-solid.svg",
+      "extension": "svg",
+      "size": 492,
+      "prettySize": "492 B",
+      "modifiedTime": "2019-02-15T06:32:04.396Z",
+      "accessTime": "2019-02-15T06:32:04.142Z",
+      "changeTime": "2019-02-15T06:32:04.396Z",
+      "birthTime": "2019-02-15T06:32:04.396Z",
+      "root": "/",
+      "dir": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images",
+      "base": "map-marker-alt-solid.svg",
+      "ext": ".svg",
+      "name": "map-marker-alt-solid",
+      "relativeDirectory": "",
+      "dev": 2053,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15599148,
+      "blocks": 8,
+      "atimeMs": 1550212324142.3254,
+      "mtimeMs": 1550212324395.6567,
+      "ctimeMs": 1550212324395.6567,
+      "birthtimeMs": 1550212324395.6567,
+      "atime": "2019-02-15T06:32:04.142Z",
+      "mtime": "2019-02-15T06:32:04.396Z",
+      "ctime": "2019-02-15T06:32:04.396Z",
+      "birthtime": "2019-02-15T06:32:04.396Z"
+    },
+    "54976351-db68-573b-b4e4-0b1af0c386f1": {
+      "id": "54976351-db68-573b-b4e4-0b1af0c386f1",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/email.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images/email.svg",
+      "relativePath": "email.svg",
+      "extension": "svg",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-02-15T06:42:46.116Z",
+      "accessTime": "2019-02-15T06:42:46.116Z",
+      "changeTime": "2019-02-15T06:42:46.116Z",
+      "birthTime": "2019-02-15T06:42:46.116Z",
+      "root": "/",
+      "dir": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images",
+      "base": "email.svg",
+      "ext": ".svg",
+      "name": "email",
+      "relativeDirectory": "",
+      "dev": 2053,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15599149,
+      "blocks": 0,
+      "atimeMs": 1550212966115.6357,
+      "mtimeMs": 1550212966115.6357,
+      "ctimeMs": 1550212966115.6357,
+      "birthtimeMs": 1550212966115.6357,
+      "atime": "2019-02-15T06:42:46.116Z",
+      "mtime": "2019-02-15T06:42:46.116Z",
+      "ctime": "2019-02-15T06:42:46.116Z",
+      "birthtime": "2019-02-15T06:42:46.116Z"
+    },
+    "6149a52c-3ad6-57a3-9aa1-1f7c20a6daf5": {
+      "id": "6149a52c-3ad6-57a3-9aa1-1f7c20a6daf5",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/placeholder.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images/placeholder.svg",
+      "relativePath": "placeholder.svg",
+      "extension": "svg",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-02-15T06:43:36.462Z",
+      "accessTime": "2019-02-15T06:43:36.462Z",
+      "changeTime": "2019-02-15T06:43:36.462Z",
+      "birthTime": "2019-02-15T06:43:36.462Z",
+      "root": "/",
+      "dir": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/images",
+      "base": "placeholder.svg",
+      "ext": ".svg",
+      "name": "placeholder",
+      "relativeDirectory": "",
+      "dev": 2053,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 15599150,
+      "blocks": 0,
+      "atimeMs": 1550213016461.9937,
+      "mtimeMs": 1550213016461.9937,
+      "ctimeMs": 1550213016461.9937,
+      "birthtimeMs": 1550213016461.9937,
+      "atime": "2019-02-15T06:43:36.462Z",
+      "mtime": "2019-02-15T06:43:36.462Z",
+      "ctime": "2019-02-15T06:43:36.462Z",
+      "birthtime": "2019-02-15T06:43:36.462Z"
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "1e495a3edfad242b78f63a61b4dbf744"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "sq--src-components-layout-js",
+        "sq--src-components-seo-js"
+      ],
+      "b8efb7f7-75a5-516c-8876-599e64449007": [
+        "sq--src-components-background-image-js"
+      ],
+      "08ecce3c-596f-5816-a011-ba716d392d83": [
+        "sq--src-components-background-image-js"
+      ],
+      "086eef41-a91a-52b9-aa30-f2ab34dc76ce": [
+        "sq--src-components-background-image-js",
+        "sq--src-components-image-js"
+      ],
+      "eaa50f54-d53e-5b8e-bf68-c6ba4d24080f": [
+        "sq--src-components-background-image-js"
+      ],
+      "af168b7a-0eba-5e10-a9b8-4f4ef61d9d12": [
+        "sq--src-components-background-image-js"
+      ],
+      "ffb6a9b8-5f5b-51ea-9c95-f949f3373e55": [
+        "sq--src-components-background-image-js",
+        "sq--src-components-image-js"
+      ],
+      "91d29acc-b688-5548-913e-500149f8a42a": [
+        "sq--src-components-background-image-js"
+      ],
+      "5eb843ac-9fc2-5e51-9853-6bba28d416de": [
+        "sq--src-components-background-image-js"
+      ]
+    },
+    "connections": {}
+  },
+  "jsonDataPaths": {
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-layout-js": 755544856,
+    "sq--src-components-seo-js": 1025518380,
+    "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "sq--src-components-image-js": 3079854636,
+    "sq--src-components-background-image-js": 1744797366
+  },
+  "components": {
+    "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/.cache/dev-404-page.js"
+    },
+    "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages/404.js": {
+      "query": "",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages/404.js"
+    },
+    "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-background-image-js": {
+      "name": "homePauloDocumentsWorkViveroLaCimaViveroLaCimaSrcComponentsBackgroundImageJs1744797366",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/components/BackgroundImage.js",
+      "id": "sq--src-components-background-image-js",
+      "jsonName": "sq--src-components-background-image-js",
+      "query": "query homePauloDocumentsWorkViveroLaCimaViveroLaCimaSrcComponentsBackgroundImageJs1744797366 {\n  hero: file(relativePath: {eq: \"hero.jpg\"}) {\n    childImageSharp {\n      fluid(quality: 100, maxWidth: 4160) {\n        ...GatsbyImageSharpFluid_withWebp\n      }\n    }\n  }\n  paisajismo: file(relativePath: {eq: \"paisajismo.jpg\"}) {\n    childImageSharp {\n      fluid(quality: 100, maxWidth: 4160) {\n        ...GatsbyImageSharpFluid_withWebp\n      }\n    }\n  }\n  macetaMadera: file(relativePath: {eq: \"maceta-madera.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 800) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  carro: file(relativePath: {eq: \"carro.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 800) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid_withWebp on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  srcWebp\n  srcSetWebp\n  sizes\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 1744797366
+    },
+    "sq--src-components-image-js": {
+      "name": "homePauloDocumentsWorkViveroLaCimaViveroLaCimaSrcComponentsImageJs3079854636",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/components/image.js",
+      "id": "sq--src-components-image-js",
+      "jsonName": "sq--src-components-image-js",
+      "query": "query homePauloDocumentsWorkViveroLaCimaViveroLaCimaSrcComponentsImageJs3079854636 {\n  macetaMadera: file(relativePath: {eq: \"maceta-madera.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 800) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "hash": 3079854636
+    },
+    "sq--src-components-layout-js": {
+      "name": "SiteTitleQuery",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/components/layout.js",
+      "id": "sq--src-components-layout-js",
+      "jsonName": "sq--src-components-layout-js",
+      "query": "query SiteTitleQuery {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "hash": 755544856
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/home/paulo/Documents/work/vivero-la-cima/vivero-la-cima/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}
