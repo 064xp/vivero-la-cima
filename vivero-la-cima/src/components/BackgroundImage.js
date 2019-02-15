@@ -9,7 +9,7 @@ const BackgroundSection = ({ children, className, src }) => (
         hero: file(relativePath: { eq: "hero.jpg" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 4160) {
-              ...GatsbyImageSharpFluid_withWebp
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -17,7 +17,7 @@ const BackgroundSection = ({ children, className, src }) => (
         paisajismo: file(relativePath: { eq: "paisajismo.jpg" }) {
           childImageSharp {
             fluid(quality: 100, maxWidth: 4160) {
-              ...GatsbyImageSharpFluid_withWebp
+              ...GatsbyImageSharpFluid
             }
           }
         }
