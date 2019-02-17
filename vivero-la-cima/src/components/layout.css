@@ -1,6 +1,10 @@
 *{
   /* font-family: 'Sanchez-Regular'; */
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 html{
   background: #ebebeb;
 }
@@ -57,69 +61,5 @@ html{
   margin-top: 0;
   margin-right: 0;
   margin-left: 0;
-  }
-}
-
-.contact-flex{
-  display:flex;
-  height: 88vh;
-}
-
-.contact-info{
-  height:100%;
-  min-height: 550px;
-  width:25vw;
-  background: #0E7B1C;
-  color: white;
-}
-
-.contact-item{
-  text-align: center;
-  margin: 0 30px 30px 30px;
-  height:20%;
-}
-.contact-item svg{
-  height: 40%;
-}
-
-.contact-socials{
-  display: flex;
-  text-align: left;
-  align-items: center;
-  margin: 0 0 10px 0;
-}
-.contact-socials svg{
-  height: 2.5em;
-  margin: 0 30px 0 0;
-}
-
-#maps{
-  border: 0;
-  height: 100%;
-  width: 75vw;
-}
-
-@media only screen and (max-width: 650px){
-  .contact-flex{
-    flex-direction: column;
-    height: auto;
-  }
-  .contact-info{
-    width: 100vw;
-    height: auto;
-    padding: 20px;
-  }
-  .contact-item{
-    display: flex;
-    align-items: center;
-    margin: 0;
-    height: 50px;
-  }
-  .contact-item svg{
-    margin-right: 30px;
-    height: 3em;
-  }
-  #maps{
-    width: 100vw;
   }
 }

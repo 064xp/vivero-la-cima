@@ -6,125 +6,129 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import BackgroundImage from "../components/BackgroundImage"
+import ContactSection from '../components/contact'
+import Footer from '../components/Footer'
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+class IndexPage extends React.Component {
 
-    <BackgroundImage src="hero" className="hero is-fullheight">
-      <div className="hero-head has-text-white" style={{background:'rgba(124, 124, 124, 0.4)'}}>
-          nav will go here
-      </div>
-      <div className="hero-body">
-        <div className="container center">
-          <div className="has-text-centered">
-            <h1 className="title has-text-white hero-title has-text-weight-normal is-size-1-mobile">Vivero la Cima</h1>
-            <h2 className="subtitle has-text-light has-text-weight-normal is-size-6-mobile">Lo mejor en jardinería para tu espacio</h2>
-            <a href="" className="button is-primary" style={{background: '#3DAE4B'}}>Nuestra Ubicación</a>
+  constructor(props){
+      super(props);
+      this.contactRef = React.createRef();
+  }
+
+  onHeroClick(){
+    this.scrollTo(this.contactRef.current.offsetTop, 1000);
+  }
+  scrollTo(distance, duration) {
+
+    var initialY = document.body.scrollTop;
+    var y = initialY + distance;
+    var baseY = (initialY + y) * 0.5;
+    var difference = initialY - baseY;
+    var startTime = performance.now();
+
+    function step() {
+        var normalizedTime = (performance.now() - startTime) / duration;
+        if (normalizedTime > 1) normalizedTime = 1;
+
+        window.scrollTo(0, baseY + difference * Math.cos(normalizedTime * Math.PI));
+        if (normalizedTime < 1) window.requestAnimationFrame(step);
+    }
+    window.requestAnimationFrame(step);
+}
+  componentDidMount(){
+    console.log(this.contactRef.current.offsetTop)
+  }
+
+  render () {
+    return(
+      <Layout>
+        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+
+        <BackgroundImage src="hero" className="hero is-fullheight">
+          <div className="hero-head has-text-white" style={{background:'rgba(124, 124, 124, 0.4)'}}>
+              nav will go here
           </div>
-        </div>
-      </div>
-      <div className="hero-foot">
-        <figure class="image is-24x24 hero-icons">
-          <a href="https://www.facebook.com/lacimazap/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fff" d="M448 57v398c0 14-11 25-25 25H309V307h58l9-68h-67v-43c0-20 5-33 34-33h35v-61l-52-2c-51 0-87 31-87 89v50h-58v68h58v173H25c-14 0-25-11-25-25V57c0-14 11-25 25-25h398c14 0 25 11 25 25z"/></svg></a>
-        </figure>
-        <figure class="image is-24x24 hero-icons">
-          <a href="https://www.instagram.com/viverolacima/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fff" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8a26.8 26.8 0 1 1 26.8-26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388a75.63 75.63 0 0 1-42.6 42.6c-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9A75.63 75.63 0 0 1 49.4 388c-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1A75.63 75.63 0 0 1 92 81.2c29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9a75.63 75.63 0 0 1 42.6 42.6c11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
-        </figure>
-      </div>
-    </BackgroundImage>
-
-    <section className="section icl-section">
-      <div className="container">
-        <div className="sec2-layer" style={{margin: '0'}}>
-          <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
-            <div className="content sec2-content" style={{marginTop: '0'}}>
-              <p className="title">Plantas</p>
-              <p className="subtitle is-size-6-mobile">Ofrecemos una gran variedad de plantas para adornar todo tipo de espacio.</p>
+          <div className="hero-body">
+            <div className="container center">
+              <div className="has-text-centered">
+                <h1 className="title has-text-white hero-title has-text-weight-normal is-size-1-mobile">Vivero la Cima</h1>
+                <h2 className="subtitle has-text-light has-text-weight-normal is-size-6-mobile">Lo mejor en jardinería para tu espacio</h2>
+                <a
+                  onClick={this.onHeroClick.bind(this)}
+                  href="#"
+                  className="button is-primary"
+                  style={{background: '#3DAE4B'}}
+                  >Nuestra Ubicación
+                </a>
+              </div>
             </div>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={200}>
-            <BackgroundImage className="sec2-images" src="hero" />
-          </ScrollAnimation>
-        </div>
-        <div className="sec2-layer" style={{flexWrap: 'wrap-reverse'}}>
-          <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={200}>
-            <BackgroundImage className="sec2-images" src="paisajismo" />
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
-            <div className="content sec2-content">
-              <p className="title">Paisajismo</p>
-              <p className="subtitle is-size-6-mobile">Ofrecemos servicio de paisajismo para tus jardines y áreas verdes</p>
-            </div>
-          </ScrollAnimation>
-        </div>
-        <div className="sec2-layer">
-          <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
-            <div className="content sec2-content">
-              <p className="title">Productos</p>
-              <p className="subtitle is-size-6-mobile">Tenemos productos y accesorios como macetas, abono y tierra de encino.</p>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={200}>
-            <BackgroundImage className="sec2-images" src="macetaMadera" />
-          </ScrollAnimation>
-        </div>
-        <div className="sec2-layer" style={{flexWrap: 'wrap-reverse'}}>
-          <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={200}>
-            <BackgroundImage className="sec2-images" src="carro" />
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
-            <div className="content sec2-content">
-              <p className="title">Servicio a Domicilio</p>
-              <p className="subtitle is-size-6-mobile">Hacemos entregas a domicilio para pedidos grandes y de mayoreo</p>
-            </div>
-          </ScrollAnimation>
-        </div>
-      </div>
-    </section>
-
-    <section className="contact-section">
-      <p className="title">Contacto y Ubicación</p>
-      <div className="contact-flex">
-        <div className="contact-info">
-          <div className="contact-item">
-            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M172.3 501.7C27 291 0 269.4 0 192a192 192 0 1 1 384 0c0 77.4-27 99-172.3 309.7a24 24 0 0 1-39.4 0zM192 272a80 80 0 1 0 0-160 80 80 0 0 0 0 160z"/></svg>
-            <p className="subtitle has-text-white is-size-6-mobile">
-              Av. Arco Pertinax #1478
-              Esquina Av. La Cima
-            </p>
           </div>
-          <div className="contact-item">
-            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M502.3 190.8a6 6 0 0 1 9.7 4.7V400a48 48 0 0 1-48 48H48a48 48 0 0 1-48-48V195.6a6 6 0 0 1 9.7-4.7c22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7A24 24 0 0 0 512 131v-19a48 48 0 0 0-48-48H48a48 48 0 0 0-48 48v19a24 24 0 0 0 9.2 18.9c30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
-            <p className="subtitle has-text-white is-size-6-mobile">
-              viverolacima@gmail.com
-            </p>
+          <div className="hero-foot">
+            <figure class="image is-24x24 hero-icons">
+              <a href="https://www.facebook.com/lacimazap/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fff" d="M448 57v398c0 14-11 25-25 25H309V307h58l9-68h-67v-43c0-20 5-33 34-33h35v-61l-52-2c-51 0-87 31-87 89v50h-58v68h58v173H25c-14 0-25-11-25-25V57c0-14 11-25 25-25h398c14 0 25 11 25 25z"/></svg></a>
+            </figure>
+            <figure class="image is-24x24 hero-icons">
+              <a href="https://www.instagram.com/viverolacima/" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fff" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8a26.8 26.8 0 1 1 26.8-26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388a75.63 75.63 0 0 1-42.6 42.6c-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9A75.63 75.63 0 0 1 49.4 388c-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1A75.63 75.63 0 0 1 92 81.2c29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9a75.63 75.63 0 0 1 42.6 42.6c11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+            </figure>
           </div>
-          <div className="contact-item">
-            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M493.4 24.6l-104-24a24.2 24.2 0 0 0-27.5 13.9l-48 112a24 24 0 0 0 6.9 28l60.6 49.6a370.6 370.6 0 0 1-177.2 177.2l-49.6-60.6a24 24 0 0 0-28-6.9l-112 48a24.3 24.3 0 0 0-14 27.6l24 104A24 24 0 0 0 48 512 464 464 0 0 0 512 48a24 24 0 0 0-18.6-23.4z"/></svg>
-            <p className="subtitle has-text-white is-size-6-mobile">
-              33 2040-7265
-            </p>
+        </BackgroundImage>
+
+        <section className="section icl-section">
+          <div className="container">
+            <div className="sec2-layer" style={{margin: '0'}}>
+              <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+                <div className="content sec2-content" style={{marginTop: '0'}}>
+                  <p className="title">Plantas</p>
+                  <p className="subtitle is-size-6-mobile">Ofrecemos una gran variedad de plantas para adornar todo tipo de espacio.</p>
+                </div>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={200}>
+                <BackgroundImage className="sec2-images" src="hero" />
+              </ScrollAnimation>
+            </div>
+            <div className="sec2-layer" style={{flexWrap: 'wrap-reverse'}}>
+              <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={200}>
+                <BackgroundImage className="sec2-images" src="paisajismo" />
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+                <div className="content sec2-content">
+                  <p className="title">Paisajismo</p>
+                  <p className="subtitle is-size-6-mobile">Ofrecemos servicio de paisajismo para tus jardines y áreas verdes</p>
+                </div>
+              </ScrollAnimation>
+            </div>
+            <div className="sec2-layer">
+              <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+                <div className="content sec2-content">
+                  <p className="title">Productos</p>
+                  <p className="subtitle is-size-6-mobile">Tenemos productos y accesorios como macetas, abono y tierra de encino.</p>
+                </div>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={200}>
+                <BackgroundImage className="sec2-images" src="macetaMadera" />
+              </ScrollAnimation>
+            </div>
+            <div className="sec2-layer" style={{flexWrap: 'wrap-reverse'}}>
+              <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={200}>
+                <BackgroundImage className="sec2-images" src="carro" />
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
+                <div className="content sec2-content">
+                  <p className="title">Servicio a Domicilio</p>
+                  <p className="subtitle is-size-6-mobile">Hacemos entregas a domicilio para pedidos grandes y de mayoreo</p>
+                </div>
+              </ScrollAnimation>
+            </div>
           </div>
-          <a href="https://www.facebook.com/lacimazap/" target="_blank" rel="noopener noreferrer">
-            <div className="contact-socials">
-              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fff" d="M448 57v398c0 14-11 25-25 25H309V307h58l9-68h-67v-43c0-20 5-33 34-33h35v-61l-52-2c-51 0-87 31-87 89v50h-58v68h58v173H25c-14 0-25-11-25-25V57c0-14 11-25 25-25h398c14 0 25 11 25 25z"/></svg>
-              <p className="subtitle has-text-white">@lacimazap</p>
-            </div>
-          </a>
-          <a href="https://www.instagram.com/viverolacima/" target="_blank" rel="noopener noreferrer">
-            <div className="contact-socials">
-              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#fff" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8a26.8 26.8 0 1 1 26.8-26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388a75.63 75.63 0 0 1-42.6 42.6c-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9A75.63 75.63 0 0 1 49.4 388c-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1A75.63 75.63 0 0 1 92 81.2c29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9a75.63 75.63 0 0 1 42.6 42.6c11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
-              <p className="subtitle has-text-white">@viverolacima</p>
-            </div>
-          </a>
-        </div>
-      <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.1068514708027!2d-103.41376498553139!3d20.74646280273233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af7d0fb19925%3A0x22603dd7dbeec79f!2sVIVERO+LA+CIMA!5e0!3m2!1sen!2smx!4v1550208480669" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <div ref={this.contactRef} />
+        <ContactSection />
+        <Footer />
+      </Layout>
 
-      </div>
-    </section>
+    );
+  }
+}
 
-  </Layout>
-)
-
-export default IndexPage
+export default IndexPage;
