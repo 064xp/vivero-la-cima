@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/vivero-la-cima",
   siteMetadata: {
     title: `Vivero la Cima`,
     description: `Variedad de plantas y productos de jardinería de la mejor calidad al mejor precio. Guadalajara`,

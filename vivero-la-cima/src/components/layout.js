@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import './bulma.css';
 
-import Header from "./header"
+import Nav from "./StickyNav"
 import "./layout.css"
 
 const Layout = ({ children }) => (
@@ -19,7 +19,8 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-          <main>{children}</main>
+          <Nav />
+          <main className="nav-push">{children}</main>
       </>
     )}
   />

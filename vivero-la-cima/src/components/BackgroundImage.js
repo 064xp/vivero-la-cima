@@ -8,7 +8,7 @@ const BackgroundSection = ({ children, className, src }) => (
       query {
         hero: file(relativePath: { eq: "hero.jpg" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 4160) {
+            fluid(quality: 100, maxWidth: 1920) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -16,7 +16,7 @@ const BackgroundSection = ({ children, className, src }) => (
 
         paisajismo: file(relativePath: { eq: "paisajismo.jpg" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 4160) {
+            fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -31,6 +31,14 @@ const BackgroundSection = ({ children, className, src }) => (
         }
 
         carro: file(relativePath: { eq: "carro.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        plantas: file(relativePath: { eq: "plantas.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid

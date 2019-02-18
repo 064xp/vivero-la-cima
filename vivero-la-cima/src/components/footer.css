@@ -1,7 +1,7 @@
 footer{
   background: #211106;
   color: #c98557;
-  display: flex;
+  display: flex!important;
   justify-content: space-between;
   height:auto;
   box-sizing: border-box;

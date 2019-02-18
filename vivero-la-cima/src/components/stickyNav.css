@@ -1,0 +1,137 @@
+.nav-push{
+  -webkit-transition: transform 400ms ease-in-out;
+  -o-transition: transform 400ms ease-in-out;
+  transition: transform 400ms ease-in-out;
+}
+.stickyNavbar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  -webkit-transition: background 200ms ease-in;
+  -o-transition: background 200ms ease-in;
+  transition: background 200ms ease-in;
+  z-index: 9999;
+}
+
+.nav-brand{
+  height: 50px  ;
+  margin: 0;
+}
+.nav-brand svg{
+  height: 100%;
+  fill: white;
+}
+.nav-items{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-width:400px;
+   color: white;
+   font-size: 1.2em;
+ }
+
+.nav-item{
+  padding: 8px;
+  border-radius: 3px;
+  -webkit-transition: background 200ms ease-in;
+  -o-transition: background 200ms ease-in;
+  transition: background 200ms ease-in;
+}
+
+.nav-items a{
+  color: white;
+  text-decoration: none;
+}
+.nav-items p{
+  cursor: pointer;
+}
+
+.nav-item:hover{
+  color: white;
+  background: rgba(71, 126, 78, 0.99);
+}
+
+.sticked{
+  background: rgba(33, 71, 38, 0.98);
+  position: fixed;
+  z-index: 9999;
+}
+
+#hamburger-toggle{
+  display: none;
+  fill: #e7e7e7;
+  width: 30px;
+}
+
+@media only screen and (max-width: 730px){
+  #hamburger-toggle{
+    display: block;
+  }
+
+  .stickyNavbar{
+    justify-content: space-between;
+    cursor: pointer;
+    -webkit-transition: transform 400ms ease-in-out;
+    -o-transition: transform 400ms ease-in-out;
+    transition: transform 400ms ease-in-out;
+  }
+
+  .nav-items{
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    background: #211106;
+    top: 0;
+    right: -200px;
+    height: 100vh;
+    min-height: 300px;
+    width:200px;
+    min-width: 0;
+    padding: 25px;
+  }
+
+  .nav-items a{
+    color: #eedbce;
+  }
+  .nav-item{
+    height: 60px;
+    line-height: 60px;
+    width: 145px;
+    padding: 0 0 0 10px;
+    border-radius: 3px;
+  }
+
+  .nav-item:hover{
+    background:  #49250d;
+  }
+
+  .nav-brand{
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-brand svg{
+    height: 60%;
+    line-height: 50px;
+  }
+}
+/* end of media query */
+
+.nav-items-show{
+  -webkit-transform: translateX(-200px);
+  -ms-transform: translateX(-200px);
+  transform: translateX(-200px);
+}
+
+.slideOver{
+  -webkit-transform: translateX(-200px);
+  -ms-transform: translateX(-200px);
+  transform: translateX(-200px);
+}

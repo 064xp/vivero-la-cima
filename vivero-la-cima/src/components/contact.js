@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import './contact.css'
 
 const ContactSection = (props) => {
@@ -45,7 +44,7 @@ const ContactSection = (props) => {
               </a>
             </div>
           </div>
-      <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.1068514708027!2d-103.41376498553139!3d20.74646280273233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af7d0fb19925%3A0x22603dd7dbeec79f!2sVIVERO+LA+CIMA!5e0!3m2!1sen!2smx!4v1550208480669" frameborder="0" allowfullscreen></iframe>
+      <iframe id="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.1068514708027!2d-103.41376498553139!3d20.74646280273233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af7d0fb19925%3A0x22603dd7dbeec79f!2sVIVERO+LA+CIMA!5e0!3m2!1sen!2smx!4v1550208480669" frameBorder="0" allowFullscreen></iframe>
     </section>
   )
 }

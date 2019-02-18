@@ -25,8 +25,14 @@ html{
 }
 
 .hero-icons{
-  margin: 0 0 15px 15px;
   float:left;
+}
+.hero-icons:nth-child(2){
+  margin: 0 0 0 10px;
+}
+
+.hero-foot{
+  padding: 0 0 20px 20px;
 }
 
 .sec2-layer{
@@ -61,5 +67,9 @@ html{
   margin-top: 0;
   margin-right: 0;
   margin-left: 0;
+  }
+
+  .hero-body {
+    margin: 40% auto auto auto !important;
   }
 }

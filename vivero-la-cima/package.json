@@ -25,6 +25,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "ghdeploy": "gatsby build --prefix-paths && cd .. && gh-pages -d vivero-la-cima/public/",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
