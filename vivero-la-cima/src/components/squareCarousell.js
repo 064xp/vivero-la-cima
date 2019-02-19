@@ -17,7 +17,6 @@ class squareCarousell extends React.Component {
     this.setState({
       numberOfImages: imagesCount
     });
-    console.log(this.props.items);
   }
 
   nextImage(){
@@ -60,7 +59,7 @@ class squareCarousell extends React.Component {
           {items.map((item, index)=>
             <BackgroundImage className="sCarousell-image"  src={item.image} key={index}>
               <div className="sCarousell-title">
-                <p className="title has-text-white is-marginless">{item.title}</p>
+                <p className="title has-text-white is-marginless has-text-weight-normal">{item.title}</p>
                 <p className="subTitle has-text-white is-marginless">{item.subTitle}</p>
               </div>
             </BackgroundImage>

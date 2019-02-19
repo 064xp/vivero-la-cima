@@ -69,10 +69,14 @@
   margin: 0 0 0 20px;
   min-width: 32px;
 }
-.contact-social a{
+.contact-socials a{
   text-decoration: none;
+  color: white;
 }
 
+.contact-socials a:hover{
+  color: #e0e0e0;
+}
 
 /* media query for flex direction .--- tablets */
 @media only screen and (max-width: 990px){

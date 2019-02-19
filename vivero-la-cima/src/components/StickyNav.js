@@ -34,6 +34,9 @@ class StickyNav extends React.Component {
       let elementOffset = document.querySelector(`#${target}`).offsetTop;
       window.scrollTo({top: elementOffset+navBarOffset, behavior: 'smooth'});
 
+      console.log(document.querySelector(`#${target}`));
+      console.log(elementOffset);
+
     }else{
       let target = e.target.getAttribute('href');
       console.log(target);
