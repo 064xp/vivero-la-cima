@@ -5,11 +5,6 @@ import BackgroundImage from './BackgroundImage'
 
 class squareCarousell extends React.Component {
 
-  constructor(props){
-    super(props);
-    this.imageStrip = React.createRef();
-  }
-
   state = {
     currentImage: 0,
     numberOfImages: null,
@@ -58,7 +53,7 @@ class squareCarousell extends React.Component {
     return(
       <div className="sCarousell-container">
         <div className="sCarousell-arrow" id="sCarousell-arrow-1" onClick={this.prevImage.bind(this)}>
-          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M192 127.3v257.4a20 20 0 0 1-34.1 14.1L29.2 270.1a20 20 0 0 1 0-28.2l128.7-128.7a20 20 0 0 1 34.1 14.1z"/></svg>
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M192 127.3v257.4a20 20 0 0 1-34.1 14.1L29.2 270.1a20 20 0 0 1 0-28.2l128.7-128.7a20 20 0 0 1 34.1 14.1z"/></svg>
         </div>
         <div className="sCarousell-current">
           <div className="sCarousell-images" style={{transform: `translateX(${-currentImage*imagesWidth}px)`}} ref={this.imageStrip}>
@@ -73,11 +68,15 @@ class squareCarousell extends React.Component {
           </div>
         </div>
         <div className="sCarousell-arrow" id="sCarousell-arrow-2" onClick={this.nextImage.bind(this)}>
-          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path fill="currentColor" d="M0 384.7V127.3a20 20 0 0 1 34.1-14.1l128.7 128.7a20 20 0 0 1 0 28.2L34.1 398.8A20 20 0 0 1 0 384.7z"/></svg>
+          <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512"><path d="M0 384.7V127.3a20 20 0 0 1 34.1-14.1l128.7 128.7a20 20 0 0 1 0 28.2L34.1 398.8A20 20 0 0 1 0 384.7z"/></svg>
         </div>
       </div>
     )
   }
+}
+
+squareCarousell.propTypes = {
+  items: PropTypes.object.isRequired
 }
 
 export default squareCarousell;

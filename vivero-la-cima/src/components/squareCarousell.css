@@ -15,6 +15,7 @@
 }
 .sCarousell-arrow svg{
   width: 100%;
+  fill: #242424;
 }
 
 .sCarousell-current{
@@ -78,6 +79,7 @@
     right: 55px;
   }
   .sCarousell-arrow svg{
+    fill: white;
     height: 50px!important;
   }
 }

@@ -1,6 +1,11 @@
 *{
   /* font-family: 'Sanchez-Regular'; */
 }
+
+.nav-push{
+  overflow: hidden;
+}
+
 a{
   text-decoration: none;
   color: white;
