@@ -38,7 +38,7 @@ const BackgroundSection = ({ children, className, src }) => (
           }
         }
 
-        plantas: file(relativePath: { eq: "plantas.jpg" }) {
+        exotica: file(relativePath: { eq: "exotica_bambudelasuerte.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 800) {
               ...GatsbyImageSharpFluid
@@ -46,6 +46,45 @@ const BackgroundSection = ({ children, className, src }) => (
           }
         }
 
+        interior: file(relativePath: { eq: "interior_pasionaria.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        pino: file(relativePath: { eq: "pino_cipresleyland.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        follaje: file(relativePath: { eq: "follaje_menta.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        suculenta: file(relativePath: { eq: "suculentas2.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+
+        exterior: file(relativePath: { eq: "exterior_alcatraz.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     `}
      render={data => {

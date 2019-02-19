@@ -73,3 +73,9 @@ html{
     margin: 40% auto auto auto !important;
   }
 }
+
+.galeria{
+  padding: 70px;
+  background: rgb(109, 187, 72);
+  min-height: 100vh;
+}

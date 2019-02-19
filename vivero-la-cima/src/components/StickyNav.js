@@ -74,7 +74,7 @@ class StickyNav extends React.Component {
         <div className="nav-items">
           <Link to="/#inicio" onClick={this.clickHandler.bind(this)} className="nav-item">Inicio</Link>
           <Link to="/#seleccion" onClick={this.clickHandler.bind(this)} className="nav-item">Selección</Link>
-          <Link to="/#galeria" onClick={this.clickHandler.bind(this)} className="nav-item">Galería</Link>
+          <Link to="/galeria" className="nav-item">Galería</Link>
           <Link to="/#contacto" onClick={this.clickHandler.bind(this)} className="nav-item">Contacto</Link>
         </div>
         <svg id="hamburger-toggle" onClick={this.hamburgerClick} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.630943 9.6881733"><g transform="translate(-103.51822 -70.023682)"><rect id="hamburger-top-bar" ry=".12750432" rx="0" y="70.023682" x="103.51822" height="1.1450591" width="16.630943"/><rect id="hamburger-bottom-bar" width="16.630943" height="1.1450591" x="103.51822" y="78.566795" rx="0" ry=".12750432"/><rect id="hamburger-middle-bar" ry=".12750432" rx="0" y="74.295242" x="106.0742" height="1.1450591" width="14.074958"/></g></svg>

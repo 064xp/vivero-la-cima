@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "gatsby"
+
 import ScrollAnimation from 'react-animate-on-scroll'
 import '../components/animate.css'
 import Layout from "../components/layout"
@@ -6,6 +8,8 @@ import SEO from "../components/seo"
 import BackgroundImage from "../components/BackgroundImage"
 import ContactSection from '../components/contact'
 import Footer from '../components/Footer'
+import SCarousell from '../components/squareCarousell'
+import carousellImages from '../components/imagesObj'
 
 class IndexPage extends React.Component {
 
@@ -58,10 +62,11 @@ class IndexPage extends React.Component {
                 <div className="content sec2-content" style={{marginTop: '0'}}>
                   <p className="title">Plantas</p>
                   <p className="subtitle is-size-6-mobile">Ofrecemos una gran variedad de plantas para adornar todo tipo de espacio.</p>
+                  <Link to="/galeria" className="button is-success is-rounded" style={{background: '#3DAE4B'}}>Ver Nuestra Galería</Link>
                 </div>
               </ScrollAnimation>
               <ScrollAnimation animateIn="fadeInUp" animateOnce={true} delay={200}>
-                <BackgroundImage className="sec2-images" src="plantas" />
+                <SCarousell items={carousellImages}/>
               </ScrollAnimation>
             </div>
             <div className="sec2-layer" style={{flexWrap: 'wrap-reverse'}}>
@@ -71,7 +76,7 @@ class IndexPage extends React.Component {
               <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
                 <div className="content sec2-content">
                   <p className="title">Paisajismo</p>
-                  <p className="subtitle is-size-6-mobile">Ofrecemos servicio de paisajismo para tus jardines y áreas verdes</p>
+                  <p className="subtitle is-size-6-mobile">Servicio de paisajismo para tus jardines y áreas verdes</p>
                 </div>
               </ScrollAnimation>
             </div>

@@ -59,4 +59,7 @@ footer svg:hover path{
     padding:0 0 20px 0;
     margin:20px 0;
   }
+  .footer-all-rights{
+    text-align: center;
+  }
 }
