@@ -29,7 +29,8 @@ class StickyNav extends React.Component {
     let page = window.location.pathname;
     if(page === '/' && window.scrollTo){
       e.preventDefault();
-      let navBarOffset = -44; //just experiment with this until you get it to scroll to where you want
+      //if the navbar is in mobile,  make the offset a bit less
+      let navBarOffset = window.innerWidth <= 730 ? -55 : -65; //just experiment with this until you get it to scroll to where you want
       let target = e.target.getAttribute("href").split('#')[1];
       let elementOffset = document.querySelector(`#${target}`).offsetTop;
       window.scrollTo({top: elementOffset+navBarOffset, behavior: 'smooth'});
