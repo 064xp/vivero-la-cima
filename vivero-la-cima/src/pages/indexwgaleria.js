@@ -25,7 +25,7 @@ class IndexPage extends React.Component {
   render () {
     return(
       <Layout>
-        <SEO title="Inicio" keywords={[`vivero la cima`, `vivero`, `vivero guadalajara`]} />
+        <SEO title="Home" keywords={[`vivero la cima`, `vivero`, `vivero guadalajara`]} />
 
         <BackgroundImage src="hero" className="hero is-fullheight">
           <a id="inicio"></a>
@@ -62,6 +62,7 @@ class IndexPage extends React.Component {
                   <div className="content sec2-content" style={{marginTop: '0'}}>
                     <p className="title">Plantas</p>
                     <p className="subtitle is-size-6-mobile">Ofrecemos una gran variedad de plantas para adornar todo tipo de espacio.</p>
+                    <Link to="/galeria" className="button is-success is-rounded" style={{background: '#3DAE4B'}}>Ver Nuestra Galería</Link>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
