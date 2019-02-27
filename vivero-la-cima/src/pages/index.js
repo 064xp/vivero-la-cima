@@ -25,7 +25,7 @@ class IndexPage extends React.Component {
   render () {
     return(
       <Layout>
-        <SEO title="Home" keywords={[`vivero la cima`, `vivero`, `vivero guadalajara`]} />
+        <SEO title="Inicio" keywords={[`vivero la cima`, `vivero`, `vivero guadalajara`]} />
 
         <BackgroundImage src="hero" className="hero is-fullheight">
           <a id="inicio"></a>
