@@ -6,14 +6,6 @@ import BackgroundImage from 'gatsby-background-image'
 const BackgroundSection = ({ children, className, src }) => (
     <StaticQuery query={graphql`
       query {
-        hero: file(relativePath: { eq: "hero.jpg" }) {
-          childImageSharp {
-            fluid(quality: 65, maxWidth: 2000, minWidth: 1024) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-
         paisajismo: file(relativePath: { eq: "paisajismo.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 800) {
