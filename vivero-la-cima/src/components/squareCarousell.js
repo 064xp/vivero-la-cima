@@ -75,7 +75,7 @@ class squareCarousell extends React.Component {
 }
 
 squareCarousell.propTypes = {
-  items: PropTypes.object.isRequired
+  items: PropTypes.array.isRequired
 }
 
 export default squareCarousell;

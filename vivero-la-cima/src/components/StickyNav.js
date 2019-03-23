@@ -75,7 +75,7 @@ class StickyNav extends React.Component {
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118.8 39.2"><path d="M0 38l19.6-23.5 11.2 2.6L46 0l8.8 8.6 2.4-1.8 12.3 13.4 15.9-8.8 11 8.8 5.5-3.5 17 14.5-16.6-9.6 2 8.8-19-16.1-11 6.6 8 17.2-25-27.5-3 2.2L45.8 5 27.3 39 29.5 20l-10-2.5z"/></svg>
           </figure>
         </Link>
-        <div className="nav-items" style={{minWidth: '300px'}}>
+        <div className="nav-items" >
           <Link to="/#inicio" onClick={this.clickHandler.bind(this)} className="nav-item">Inicio</Link>
           <Link to="/#seleccion" onClick={this.clickHandler.bind(this)} className="nav-item">Selección</Link>
           <Link to="/#contacto" onClick={this.clickHandler.bind(this)} className="nav-item">Contacto</Link>

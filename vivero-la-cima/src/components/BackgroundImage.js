@@ -8,7 +8,7 @@ const BackgroundSection = ({ children, className, src }) => (
       query {
         hero: file(relativePath: { eq: "hero.jpg" }) {
           childImageSharp {
-            fluid(quality: 100, maxWidth: 1920) {
+            fluid(quality: 55, maxWidth: 1920) {
               ...GatsbyImageSharpFluid
             }
           }
