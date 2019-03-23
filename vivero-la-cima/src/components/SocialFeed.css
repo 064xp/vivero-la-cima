@@ -1,0 +1,9 @@
+#juicer-iframe{
+  position: relative;
+  top: -55px;
+  display: block;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
