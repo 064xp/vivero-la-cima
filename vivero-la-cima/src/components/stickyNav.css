@@ -38,6 +38,7 @@
 
 .nav-item{
   padding: 8px;
+  margin: 0 10px;
   border-radius: 3px;
   -webkit-transition: background 200ms ease-in;
   -o-transition: background 200ms ease-in;
@@ -106,6 +107,7 @@
     width: 145px;
     padding: 0 0 0 10px;
     border-radius: 3px;
+    margin: 0;
   }
 
   .nav-item:hover{

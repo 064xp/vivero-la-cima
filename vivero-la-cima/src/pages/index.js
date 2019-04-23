@@ -64,7 +64,7 @@ class IndexPage extends React.Component {
                   <div className="content sec2-content" style={{marginTop: '0'}}>
                     <p className="title">Plantas</p>
                     <p className="subtitle is-size-6-mobile">Ofrecemos una gran variedad de plantas para adornar todo tipo de espacio.</p>
-                    <Link to="galeria" className="button is-success is-rounded">Ver Nuestra Galería</Link>
+                    <a href="https://www.facebook.com/pg/lacimazap/shop/" target="_" className="button is-success is-rounded">Visita Nuestra Tienda</a>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>

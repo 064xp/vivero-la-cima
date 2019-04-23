@@ -78,6 +78,7 @@ class StickyNav extends React.Component {
         <div className="nav-items" >
           <Link to="/#inicio" onClick={this.clickHandler.bind(this)} className="nav-item">Inicio</Link>
           <Link to="/#seleccion" onClick={this.clickHandler.bind(this)} className="nav-item">Selección</Link>
+          <a href="https://www.facebook.com/pg/lacimazap/shop/" target="_" className="nav-item">Tienda</a>
           <Link to="galeria" className="nav-item">Galería</Link>
           <Link to="/#contacto" onClick={this.clickHandler.bind(this)} className="nav-item">Contacto</Link>
         </div>
