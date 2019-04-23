@@ -55,11 +55,11 @@
 
 .nav-item:hover{
   color: white;
-  background: rgba(71, 126, 78, 0.99);
+  background: #64c258;
 }
 
 .sticked{
-  background: rgba(33, 71, 38, 0.98);
+  background: #44883c;
   position: fixed;
   z-index: 9999;
 }
@@ -133,7 +133,7 @@
 }
 
 .slideOver{
-  -webkit-transform: translateX(-200px);
-  -ms-transform: translateX(-200px);
-  transform: translateX(-200px);
+  -webkit-transform: translateX(-120px);
+  -ms-transform: translateX(-120px);
+  transform: translateX(-120px);
 }
